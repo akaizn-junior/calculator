@@ -1,4 +1,4 @@
 # Calculator
-## A calculator made with javascript.
+## A calculator written in javascript.
 
-Download the code and implement the calculator to your website.
+Copyright &copy; 2018 Simao Nziaka

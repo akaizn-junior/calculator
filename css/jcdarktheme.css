@@ -1,0 +1,45 @@
+#joel-header, #joel-screen {
+    background: rgb(56, 55, 55);
+}
+
+#joel-header {
+    border-color: #000000;
+}
+
+#joel-screen {
+    background: rgb(56, 55, 55);
+    color: #ffffff;
+    caret-color: rgb(255, 59, 59);
+}
+
+#joel-body {
+    border-color: #182a3f;
+    background: #55aaff;
+}
+
+#joel-header, #joel-body {
+    border-width: 0px;
+}
+
+/* buttons */
+.jbutton {
+    color: whitesmoke;
+    background: rgb(46, 46, 46);
+    border: 1px solid #000000;
+    box-shadow: 3px 1px 2px #222222;
+}
+
+.jbutton:hover {
+    background: #333333;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.jbutton.number:focus {
+    background: #063f77;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.jbutton.operator:focus {
+    background: rgb(138, 91, 5);
+    text-shadow: 1px 1px 0px #000000;
+}

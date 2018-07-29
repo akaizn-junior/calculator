@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Joel Demo</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="application-name" content="Joel Demo">
+  <meta name="keywords" content="js, css, html, calculator, app, web">
+  <meta name="description" content="Joel Calculator">
+  <meta name="author" content="Simao Nziaka">
+  <!-- Joel Calculator style with a dark theme -->
+  <link rel="stylesheet" media="all" href="css/joelcalculator.css"/>
+  <link rel="stylesheet" media="all" href="css/jcdarktheme.css"/>
+  <style>
+    /*Demo app css*/
+    h1.logo {
+      color: #9eccff;
+      font-family: sans-serif;
+      text-shadow: 1px 1px 1px #22afda;
+      background: #86aeff;
+      display: inline;
+    }
+
+    header {
+      border-bottom: 1px solid #efefef;
+    }
+
+    main {
+      margin: 20px 0 20px 0;
+    }
+
+    footer {
+      font-size: 11px;
+      border-top: 1px solid #efefef;
+      padding-top: 5px;
+    }
+
+    footer span ~ span::before {
+      content: "[[[ ";
+    }
+    /*end demo app css*/
+  </style>
+</head>
+<body>
+  <header>
+      <h1 class="logo">Joel Calculator</h1>
+  </header>
+
+  <main role="main">
+    <div id="joel"></div>
+  </main>
+
+  <footer>
+    <span id="copy">Copyright &copy; 2017-2018 Simao Nziaka</span>
+    <span id="version">v0.1.0</span>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/joelcalculator.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

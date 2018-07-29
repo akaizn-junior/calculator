@@ -1,0 +1,42 @@
+#joel {
+    width: 310px;
+}
+
+#joel-header, #joel-body {
+    border-width: 2px;
+    border-style: solid;
+}
+
+#joel-screen {
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: none;
+    border: none;
+}
+
+#joel-body {
+    min-height: 325px;
+    padding: 5px;
+}
+
+/* buttons */
+#joel-buttons-grid {
+    margin: 5px;
+}
+
+.jbutton {
+    width: 55px;
+    height: 55px;
+    font-weight: bold;
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+.jbutton:hover {}
+
+.jbutton.number:focus {}
+
+.jbutton.operator:focus {}
